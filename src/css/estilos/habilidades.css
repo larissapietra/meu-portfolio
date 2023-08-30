@@ -54,3 +54,9 @@
 .habilidades .container-habilidades .habilidade .logo-github i:hover {
     color: rgb(0, 0, 0);
 }
+
+@media(max-width: 375px) {
+    .habilidades .container .section-title h2{
+        font-size: var(--fonte-normal);
+    }
+}
