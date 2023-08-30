@@ -1,0 +1,14 @@
+.footer {
+    background: linear-gradient(63.13deg, rgb(209, 149, 143) 53.04%, rgb(209, 93, 100) 51.05%);
+    margin-top: 7rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer h2 {
+    color: #000000;
+    font-size: var(--fonte-normal-2);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+

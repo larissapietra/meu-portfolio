@@ -1,0 +1,22 @@
+:root {
+    --cor-primaria: #bd6350;
+    --cor-secundaria: #9c382c;
+    --cor-branca: #fff;
+    --cor-fundo-escuro: #7c0e07;
+    --cor-fundo-claro: #de8d75;
+    --cor-fundo-rosa-claro: #ffb79a;
+}
+
+:root {
+    --fonte-primaria: 'Quando', sans-serif;
+    --fonte-secundaria: 'Press Start 2P', cursive; 
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+    --fonte-normal-2: 1.8rem;
+}
+
+:root {
+    --mobile-padding: 30px;
+}

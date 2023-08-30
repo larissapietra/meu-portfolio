@@ -1,0 +1,65 @@
+.sobre-mim {
+    background-color: var(--cor-primaria);
+}
+
+.sobre-mim .imagem-sobre-mim {
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.sobre-mim .imagem-sobre-mim .img-box {
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 3px 3px #454545, -3px -3px 3px var(--cor-primaria);
+}
+
+.sobre-mim .imagem-sobre-mim img {
+    border: 10px solid transparent;
+    border-radius: 50%;
+}
+
+.sobre-mim .informacoes-sobre-mim {
+    max-width: 50%;
+    padding: 0 0 25px;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+    font-size: var(--fonte-normal-2);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+    color: var(--cor-fundo-escuro);
+}
+
+@media(max-width: 1280px) {
+    .sobre-mim .row {
+        justify-content: center;
+    }
+
+    .sobre-mim .imagem-sobre-mim {
+        max-width: 100%;
+        padding: var(--mobile-padding);
+        margin-bottom: 50px;   
+    }
+
+    .imagem-sobre-mim .informacoes-sobre-mim {
+        padding: 0 0 var(--mobile-padding);
+        text-align: center;
+    }
+
+    .sobre-mim .informacoes-sobre-mim .botoes {
+        text-align: center;
+    }
+
+    .sobre-mim .informacoes-sobre-mim p {
+        margin: 0;
+    }
+}
+
+

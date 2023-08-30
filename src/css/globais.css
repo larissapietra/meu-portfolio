@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    color: var(--cor-branca);
+    font-size: 62.5%;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.alinhar-itens-no-centro {
+    align-items: center;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 2.0rem;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo-escuro);
+    border-radius: 50%;
+    border: 2px solid var(--cor-fundo-rosa-claro);
+    transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    color: var(--cor-branca);
+    background-color: var(--cor-fundo-claro);
+    border: 2px solid var(--cor-fundo-escuro);
+}
+
+.outer-shadow {
+    box-shadow: 3px 3px #454545, -3px -3px 3px #d1958f;
+}
+
+.section {
+    padding: 7rem 0 7rem;
+}
+
+.section-title {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 60px 0;
+}
+
+.section-title h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 500;
+    color: var(--cor-branca);
+    text-transform: uppercase;
+}
+
+.botao {
+    font-size: var(--fonte-grande);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: var(--cor-primaria);
+}
+
+.botao:hover {
+    background-color: var(--cor-fundo-rosa-claro);
+    color: var(--cor-fundo-escuro);
+}
+
+
+
+
+
