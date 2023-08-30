@@ -32,8 +32,8 @@
 .sobre-mim .informacoes-sobre-mim p {
     font-size: var(--fonte-normal-2);
     margin-bottom: 20px;
-    text-align: center;
     margin-top: 100px;
+    text-align: center;
     color: var(--cor-fundo-escuro);
 }
 
@@ -62,4 +62,9 @@
     }
 }
 
-
+@media(max-width: 375px){
+    .sobre-mim .informacoes-sobre-mim p {
+        width: 200px;
+        text-align: center;
+    }
+}

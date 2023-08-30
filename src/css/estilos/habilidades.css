@@ -25,6 +25,7 @@
     color: #000000;
     font-size: var(--fonte-extra-grande);
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .habilidades .container-habilidades .habilidade p {
