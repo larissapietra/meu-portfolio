@@ -88,6 +88,12 @@ body {
     color: var(--cor-fundo-escuro);
 }
 
+@media(max-width: 590px) {
+    .container .section-title h2 {
+        font-size: var(--fonte-grande);
+    }
+}
+
 
 
 
